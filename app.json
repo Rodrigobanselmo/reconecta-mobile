@@ -1,0 +1,29 @@
+{
+  "name": "reconect-app",
+  "displayName": "reconect-app",
+  "expo": {
+    "name": "reconect-app",
+    "slug": "reconect-app",
+    "version": "1.0.0",
+    "icon":"./src/assets/expo/icon.png",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "description": "",
+    "androidNavigationBar": {
+     "barStyle": "dark-content",
+     "backgroundColor": "#ffffff"
+   },
+   "splash": {
+    "backgroundColor": "#ffffff",
+    "image": "./src/assets/expo/splash.png",
+    "resizeMode": "contain"
+    },
+    "android":{
+      "adaptiveIcon": {
+        "foregroundImage":"./src/assets/expo/adaptive-icon.png",
+        "backgroundColor":"#ffffff"
+      }
+    }
+  }
+}

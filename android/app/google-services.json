@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "130299303083",
+    "project_id": "reconecta-dev",
+    "storage_bucket": "reconecta-dev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:130299303083:android:1a4de5b82c9f6f580d93ee",
+        "android_client_info": {
+          "package_name": "com.reconectapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "130299303083-gnu9dm2sjk9ikpv6q82pdhagg2hp01f0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmaE5rvh8AG5awuww83ZAWTt7vyGIdl0o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "130299303083-gnu9dm2sjk9ikpv6q82pdhagg2hp01f0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
