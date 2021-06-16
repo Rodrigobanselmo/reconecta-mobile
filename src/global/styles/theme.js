@@ -1,5 +1,5 @@
 import { Platform } from 'react-native';
-import { getStatusBarHeight } from 'react-native-iphone-x-helper';
+import { getStatusBarHeight, getBottomSpace } from 'react-native-iphone-x-helper';
 
 export default {
   colors: {
@@ -7,7 +7,7 @@ export default {
       main: '#387b85',
       mainBlue: '#38568a',
       mainGreen: '#387b85',
-      mainPurple: '#b9bbea',
+      mainPurple: '#9ea1c7',
       mainOrange: '#dc8035',
       mainLight: '#ddd8d2',
       contrastText: '#fff',
@@ -24,6 +24,7 @@ export default {
       secondary:  '#969CB2',
       grey: '#999b9d',
       dark:  '#000000',
+      light:  '#fff',
     },
     status: {
       inactive:'#b0b3b5',
@@ -45,5 +46,7 @@ export default {
     medium: 'Poppins_500Medium',
     bold: 'Poppins_700Bold',
   },
-  statusHeight: Platform.OS === 'android' ? getStatusBarHeight()+ 5 : 0,
+  statusHeight: getStatusBarHeight()+10,
+  bottomHeight: getBottomSpace()+5,
+  // statusHeight: Platform.OS === 'android' ? getStatusBarHeight()+ 5 : 0,
 };

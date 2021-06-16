@@ -17,7 +17,8 @@ export function Routes() {
 
 	return(
 		<NavigationContainer>
-			{user ? <AppRoutes /> : <AuthRoutes/>}
+			<AppRoutes />
+			{/* {user ? <AppRoutes /> : <AuthRoutes/>} */}
 			<Toast topOffset={45} ref={(ref) => Toast.setRef(ref)} />
 			<ModalAlert/>
 			<Loader/>
